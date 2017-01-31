@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.examen2eval.ActividadElTiempo">
+
+    <TextView
+        android:id="@+id/lblescogerLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escogerLocalidad"
+        android:textSize="17dp"/>
+    <Button
+        android:id="@+id/butBilbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblescogerLocalidad"
+        android:text="@string/bilbo"/>
+    <Button
+        android:id="@+id/butGasteiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butBilbo"
+        android:text="@string/gasteiz"
+        />
+    <Button
+        android:id="@+id/butDonosti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butGasteiz"
+        android:text="@string/donosti"/>
+
+    <Button
+        android:id="@+id/butVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:width="200dp"
+        android:layout_below="@+id/butmultimedia"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/volver"
+        android:onClick="volver"
+
+        />
+    <TextView
+        android:id="@+id/lblTimepoActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tiempoActual"
+        android:layout_below="@id/butDonosti"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_below="@id/lblTimepoActual"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+</RelativeLayout>

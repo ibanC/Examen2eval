@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EXAMEN PROM</string>
+    <string name="menuPrincpipal">MENU PRINCIPAL</string>
+    <string name="eltiempo">EL TIEMPO</string>
+    <string name="eltiempoLabel">El Tiempo</string>
+    <string name="datosAtomicos">DATOS ATOMICOS</string>
+    <string name="datosAtomicosLabel">Datos Atómicos</string>
+    <string name="multimedia">MULTIMEDIA</string>
+    <string name="exit">EXIT</string>
+    <string name="volver">VOLVER</string>
+    <string name="escogerLocalidad">Escoge una de las siguentes localidades:</string>
+    <string name="bilbo">BILBO-BILBAO</string>
+    <string name="gasteiz">VITORIA-GASTEIZ</string>
+    <string name="donosti">DONOSTIA-SAN SEBASTIAN</string>
+    <string name="tiempoActual">Tiempo actual en:</string>
+    <string name="IntroducirDatoAtomico">Introduce nombre de elemento químico:</string>
+    <string name="InfoElemento">INFORMACIÓN DEL ELEMENTO</string>
+    <string name="SimboloQuimico">Simbolo químico:</string>
+    <string name="NumeroAtomico">Numero Atomico:</string>
+    <string name="PesoAtomico">Peso Atomico:</string>
+    <string name="PuntoEbullicion">Punto de Ebullicion:</string>
+    <string name="Densidad">Densidad:</string>
+    <string name="sonidosMultimedia">Sonidos Multimedia</string>
+</resources>
